@@ -1,18 +1,3 @@
-/*
-作者:D.Young
-主页：https://yyv.me/
-github：https://github.com/5iux/sou
-日期：2019-07-26
-版权所有，请勿删除
-========================================
-由 yeetime 修改
-github：https://github.com/yeetime/sou2
-日期：2019-12-13
-========================================
-由 imsyy 二次修改
-github：https://github.com/imsyy/sou2
-日期：2022-03-10
-*/
 
 // 默认搜索引擎列表
 var se_list_preinstall = {
@@ -240,7 +225,7 @@ function setBgImgInit() {
             $('#bg').attr('src', 'https://api.ixiaowai.cn/gqapi/gqapi.php') //随机风景
             break;
         case "4":
-            $('#bg').attr('src', 'https://api.ixiaowai.cn/api/api.php') //随机二次元
+            $('#bg').attr('src', 'https://api.paugram.com/wallpaper/') //随机二次元
             break;
         case "5":
             $('#bg').attr('src', bg_img["path"]) //自定义
