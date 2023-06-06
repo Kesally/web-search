@@ -237,10 +237,10 @@ function setBgImgInit() {
             $('#bg').attr('src', 'https://api.dujin.org/bing/1920.php') //必应每日
             break;
         case "3":
-            $('#bg').attr('src', 'https://api.ixiaowai.cn/gqapi/gqapi.php') //随机风景
+            $('#bg').attr('src', 'https://api.btstu.cn/sjbz/api.php?lx=fengjing&format=images&method=pc') //随机风景
             break;
         case "4":
-            $('#bg').attr('src', 'https://api.ixiaowai.cn/api/api.php') //随机二次元
+            $('#bg').attr('src', 'https://api.paugram.com/wallpaper/') //随机二次元
             break;
         case "5":
             $('#bg').attr('src', bg_img["path"]) //自定义
